@@ -1,6 +1,6 @@
 package sort
 
-// Quick implements quick sort algorithm
+// Sort implements quick sort algorithm
 func Sort(slice []int) []int {
 	sliceCopy := make([]int, len(slice))
 	copy(sliceCopy, slice)
